@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5', // fundo claro para começo (pode alterar)
+    backgroundColor: '#f5f5f5',
     paddingTop: 20,
   },
   headerTitle: {
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     padding: 12,
     borderRadius: 10,
-    elevation: 3, // sombra android
+    elevation: 3, 
   },
   petName: {
     fontSize: 18,

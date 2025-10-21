@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, ScrollView, TouchableOpacity } from 'react-native';
 import styles from '../styles/globalStyles';
 
-// dados estáticos iniciais (substituiremos por armazenamento depois)
+// dados estáticos iniciais
 const PETS = [
   { id: '1', name: 'Rex', species: 'Cachorro', age: '3 anos', description: 'Labrador brincalhão' },
   { id: '2', name: 'Mimi', species: 'Gato', age: '2 anos', description: 'Calma e carinhosa' },
